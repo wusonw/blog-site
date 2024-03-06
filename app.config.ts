@@ -3,6 +3,7 @@ export default defineAppConfig({
   alpine: {
     title: 'Wusonw\'s Blog',
     description: 'My personal blog site',
+
     // image: {
     //   src: '/social-card-preview.png',
     //   alt: 'An image showcasing my project.',
@@ -17,6 +18,7 @@ export default defineAppConfig({
         alt: 'wusonw' // alt of the logo
       }
     },
+
     footer: {
       credits: {
         enabled: false, // possible value are : true | false
@@ -26,6 +28,10 @@ export default defineAppConfig({
       alignment: 'center', // possible value are : 'none' | 'left' | 'center' | 'right'
       message: 'Find me' // string that will be displayed in the footer (leave empty or delete to disable)
     },
+
+    // form: {
+    //   successMessage: 'Message sent. Thank you!'
+    // }
     socials: {
       // twitter: 'nuxtlabs',
       // instagram: 'atinuxt',
@@ -36,8 +42,9 @@ export default defineAppConfig({
       // }
       github:'wusonw'
     },
-    // form: {
-    //   successMessage: 'Message sent. Thank you!'
-    // }
+
+    image: {
+      src: '/hello-world.png'
+    }
   }
 })
